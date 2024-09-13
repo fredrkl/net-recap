@@ -1,8 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-//Console.WriteLine("Hello, World again!");
-
-using MyNamespace;
-
-Person person = new Person();
-person.Age = 25;
+﻿var something = new Car{ Make = "Opel", Model="Ampera", Year=2003 };
+var another = something with { Year = 2006 };

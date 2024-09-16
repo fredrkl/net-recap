@@ -2,7 +2,7 @@ namespace MyNamespace {
 
   public class Person
   {
-      public string Name { get; set; } = "";
+      public string Name { get; init; } = "";
       public int Age { get; set; }
   }
 

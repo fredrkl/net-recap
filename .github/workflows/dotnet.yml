@@ -8,10 +8,12 @@ on:
     branches: [ "main" ]
     paths:
       - 'records-explorer/**'
+      - '*.sln'
   pull_request:
     branches: [ "main" ]
     paths:
       - 'records-explorer/**'
+      - '*.sln'
 
 jobs:
   build:

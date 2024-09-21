@@ -4,3 +4,5 @@ public record Car()
     public string Model { get; init; } = string.Empty;
     public int Year { get; init; } = 0;
 }
+
+public record Person(string Name, int Age);

@@ -6,8 +6,12 @@ name: .NET
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'records-explorer/**'
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'records-explorer/**'
 
 jobs:
   build:

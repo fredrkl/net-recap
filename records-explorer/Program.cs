@@ -16,6 +16,7 @@ var norway = anotherSpain with {Name = "Norway"};
 
 Console.WriteLine($"Spain equal another record with same name: {spain == anotherSpain}"); // Returns true
 Console.WriteLine($"Spain equal another record with same name: {spain == norway}"); // Returns false
+Console.WriteLine($"The Barcelona team is {team2}"); // Returns Barcelona Team { Name = FC Barcelona, city = City { Name = Barcelona, Country = Country { Name = Spain } } }
 
 //spain.Name = "Sweden"; // This will not compile because the property is init only
 

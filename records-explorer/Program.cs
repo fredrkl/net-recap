@@ -23,3 +23,11 @@ Console.WriteLine($"The Barcelona team is {team2}"); // Returns Barcelona Team {
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack
 public record struct Team(string Name, City city); // Stored on the stack
+
+// Example of a record class
+public record class Car()
+{
+    public string Make { get; set; } = string.Empty;
+    public string Model { get; init; } = string.Empty;
+    public int Year { get; init; } = 0;
+}

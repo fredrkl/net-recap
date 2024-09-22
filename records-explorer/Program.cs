@@ -12,9 +12,12 @@ var barcelona = madrid with { Name = "Barcelona" };
 var team2 = team with { Name = "FC Barcelona", city = barcelona }; // In this case it would be equaly easy to create a new team from scratch without using the with keyword. This is only for showcasing.
 
 var anotherSpain = new Country("Spain");
+var norway = anotherSpain with {Name = "Norway"};
 
-Console.WriteLine($"Spain equal another record with same name: {spain == anotherSpain}");
+Console.WriteLine($"Spain equal another record with same name: {spain == anotherSpain}"); // Returns true
+Console.WriteLine($"Spain equal another record with same name: {spain == norway}"); // Returns false
 
+//spain.Name = "Sweden"; // This will not compile because the property is init only
 
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack

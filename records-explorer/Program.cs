@@ -20,9 +20,21 @@ Console.WriteLine($"The Barcelona team is {team2}"); // Returns Barcelona Team {
 
 //spain.Name = "Sweden"; // This will not compile because the property is init only
 
+var person = new Person("John", "Doe");
+var person2 = person;
+
+Console.WriteLine($"Person equal another record with same name: {person == person2}"); // Returns true
+Console.WriteLine($"Person equal another person with reference equal: {ReferenceEquals(person, person2)}"); // Returns true
+
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack
 public record struct Team(string Name, City city); // Stored on the stack
+
+
+public record Person(string FirstName, string LastName);
+public record Employee(string FirstName, string LastName, string EmployeeId) : Person(FirstName, LastName);
+
+
 
 // Example of a record class
 public record class Car()

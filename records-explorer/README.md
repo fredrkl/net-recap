@@ -2,7 +2,7 @@
 
 `Records explorer` explores the new feature of C# 9.0, Records.
 
-Records are reference types that provide synthesized methods to implement value equality. They are immutable and can be deconstructed. It is important to note that records are reference types, not value types.
+Records are reference types that provide synthesized methods to implement value equality. They are immutable per default and can be deconstructed. It is important to note that records are reference types, not value types.
 
 In C#, records are a reference type by default, which means they are stored on the heap. However, C# 9.0 introduced the concept of `record` types, which can be either reference types or value types. This project uses .net 8 which used the C# version 12.
 
@@ -25,7 +25,6 @@ In C#, records are a reference type by default, which means they are stored on t
 In summary:
 - **Reference type records** (default) are stored on the heap.
 - **Value type records** are stored on the stack.
-
 
 ## Links
 - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record

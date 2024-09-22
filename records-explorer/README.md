@@ -1,6 +1,6 @@
 # Records Explorer
 
-Records explorer is the project to explore the new feature of C# 9.0, Records.
+`Records explorer` explores the new feature of C# 9.0, Records.
 
 Records are reference types that provide synthesized methods to implement value equality. They are immutable and can be deconstructed. It is important to note that records are reference types, not value types.
 
@@ -24,6 +24,7 @@ In C#, records are a reference type by default, which means they are stored on t
 
 In summary:
 - **Reference type records** (default) are stored on the heap.
+- **Value type records** are stored on the stack.
 
 
 ## Links

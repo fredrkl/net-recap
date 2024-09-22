@@ -24,6 +24,11 @@ In C#, records are a reference type by default, which means they are stored on t
 
 As I see it, you will only want to use value type records when you have a small, immutable data structure that you want to store on the stack. For larger data structures, you will want to use reference type records. Record structs do not support inheritence.
 
+## When to use either
+
+- Use reference type records when you have a large data structure that you want to store on the heap.
+- Use value type records when you have a small, immutable data structure that you want to store on the stack.Good for performance critical applications.
+
 In summary:
 - **Reference type records** (default) are stored on the heap.
 - **Value type records** are stored on the stack.

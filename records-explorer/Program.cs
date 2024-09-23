@@ -26,6 +26,7 @@ var person2 = person;
 Console.WriteLine($"Person equal another record with same name: {person == person2}"); // Returns true
 Console.WriteLine($"Person equal another person with reference equal: {ReferenceEquals(person, person2)}"); // Returns true
 
+
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack
 public record struct Team(string Name, City city); // Stored on the stack

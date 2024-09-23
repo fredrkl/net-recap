@@ -1,3 +1,0 @@
-
-#Co-authored-by: Someone Else <someoen@else.com>
-Signed-off-by: Fredrik Klingenberg <fredrkl@gmail.com>

@@ -1,3 +1,4 @@
 obj/
 bin/
 .committemplate.txt
+.commit-template.txt

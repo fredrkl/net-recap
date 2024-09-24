@@ -1,4 +1,4 @@
-namespace MyNamespace {
+namespace recordsexplorer{
 
   public class Person
   {

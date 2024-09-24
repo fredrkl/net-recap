@@ -29,6 +29,10 @@ As I see it, you will only want to use value type records when you have a small,
 - Use reference type records when you have a large data structure that you want to store on the heap.
 - Use value type records when you have a small, immutable data structure that you want to store on the stack.Good for performance critical applications.
 
+## Record vs Record Class
+
+Specifying `Record Class` instead of only `Record` is not necessary. The `Record` keyword is enough to define a record type. The `Record Class` is to used to make it more explicit.
+
 In summary:
 - **Reference type records** (default) are stored on the heap.
 - **Value type records** are stored on the stack.

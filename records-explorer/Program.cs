@@ -1,5 +1,5 @@
-﻿var something = new Car{ Make = "Opel", Model="Ampera", Year=2003 };
-var another = something with { Year = 2006 };
+﻿//var something = Car{ Make = "Opel", Model="Ampera", Year=2003 };
+//var another = something with { Year = 2006 };
 var x = 4;
 var y = x + 5;
 var z = y + 6;
@@ -26,21 +26,26 @@ var person2 = person;
 Console.WriteLine($"Person equal another record with same name: {person == person2}"); // Returns true
 Console.WriteLine($"Person equal another person with reference equal: {ReferenceEquals(person, person2)}"); // Returns true
 
+//Car car1 = new Car();
+
 
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack
 public record struct Team(string Name, City city); // Stored on the stack
 
-
 public record Person(string FirstName, string LastName);
-public record Employee(string FirstName, string LastName, string EmployeeId) : Person(FirstName, LastName);
+public record class Employee(string FirstName, string LastName, string EmployeeId) : Person(FirstName, LastName);
 
+// Example of a record class// The class keyword is optional
+public record class Car(string make, string model, int year);
+//{
+//  Car(string make, string model, int year) : this(make, model, year) {
+//    this.Make = make;
+//    this.Model = model;
+//    this.Year = year;
+//  }
 
-
-// Example of a record class
-public record class Car()
-{
-    public string Make { get; set; } = string.Empty;
-    public string Model { get; init; } = string.Empty;
-    public int Year { get; init; } = 0;
-}
+//  public string Make { get; set; } = string.Empty;
+//  public string Model { get; init; } = string.Empty;
+//  public int Year { get; init; } = 0;
+//}

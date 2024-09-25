@@ -33,4 +33,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore records-explorer/
     - name: Test
-      run: dotnet test --no-build --verbosity normal records-explorer/
+      run: dotnet test --no-build --verbosity normal records-explorer.Tests/

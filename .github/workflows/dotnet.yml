@@ -9,13 +9,13 @@ on:
     paths:
       - records-explorer/**
       - records-explorer.Tests/**
-      - *.sln
+      - net-recap.sln
   pull_request:
     branches: [ "main" ]
     paths:
       - records-explorer/**
       - records-explorer.Tests/**
-      - *.sln
+      - net-recap.sln
 
 jobs:
   build:

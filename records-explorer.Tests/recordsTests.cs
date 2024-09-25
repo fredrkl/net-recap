@@ -37,7 +37,7 @@ public class RecordsTests
     // Act
     var actual = country1 == country2;
 
-    // Assert
+    // Assert. Some change that should trigger build
     Assert.False(actual);
   }
 }

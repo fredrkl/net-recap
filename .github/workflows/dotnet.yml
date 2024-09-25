@@ -10,12 +10,14 @@ on:
       - records-explorer/**
       - records-explorer.Tests/**
       - net-recap.sln
+      - .github/workflows/**
   pull_request:
     branches: [ "main" ]
     paths:
       - records-explorer/**
       - records-explorer.Tests/**
       - net-recap.sln
+      - .github/workflows/**
 
 jobs:
   build:

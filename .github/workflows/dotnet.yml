@@ -30,9 +30,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Restore dependencies
-      run: dotnet restore records-explorer/
     - name: Build
-      run: dotnet build --no-restore records-explorer/
+      run: dotnet build records-explorer/
     - name: Test
-      run: dotnet test --no-build --verbosity normal records-explorer.Tests/
+      run: dotnet test records-explorer.Tests/

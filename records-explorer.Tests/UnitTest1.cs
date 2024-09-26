@@ -49,4 +49,34 @@ public class UnitTest1
     // Assert
     Assert.False(actual);
   }
+
+  [Fact]
+  public void Records_value_comparison3()
+  {
+    // Arrange
+    var country1 = new Country("Spain");
+    var country2 = country1 with { Name = "Spain" };
+
+    // Act
+    var actual = country1 == country2;
+
+    // Assert
+    Assert.True(actual);
+  }
+
+  [Fact]
+  public void Records_value_comparison4()
+  {
+    // Arrange
+    var country1 = new Country("Spain");
+    var country2 = country1 with { Name = "Sweden" };
+
+    // country1.Name = "Sweden"; // This is not allowed
+    
+    // Act
+    var actual = country1 == country2;
+
+    // Assert
+    Assert.False(actual);
+  }
 }

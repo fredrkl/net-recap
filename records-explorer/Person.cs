@@ -1,6 +1,6 @@
 namespace recordsexplorer{
 
-  public record Person
+  public record struct Person
   {
     public Person(string name, int age)
     {
@@ -20,7 +20,6 @@ namespace recordsexplorer{
 
   public record PersonWithHobbies
   {
-<<<<<<< HEAD
       public Person? Person { get; set; }
       public List<Hobby> Hobbies { get; set; } = new List<Hobby>();
 
@@ -28,9 +27,5 @@ namespace recordsexplorer{
         Person = p;
         this.Hobbies = hobbies;
       }
-=======
-    public Person? Person { get; set; }
-    public List<Hobby> Hobbies { get; set; } = new List<Hobby>();
->>>>>>> 875ebd2 (✨ (records): Investigating constructors)
   }
 }

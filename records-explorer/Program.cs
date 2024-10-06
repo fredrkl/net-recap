@@ -20,7 +20,7 @@ Console.WriteLine($"The Barcelona team is {team2}"); // Returns Barcelona Team {
 
 var person = new Person("John", "Doe");
 var person2 = person;
-MyNamespace.Person person3 = new MyNamespace.Person("John", 5); 
+recordsexplorer.Person person3 = new recordsexplorer.Person("John", 5);
 
 Console.WriteLine($"Person equal another record with same name: {person == person2}"); // Returns true
 Console.WriteLine($"Person equal another person with reference equal: {ReferenceEquals(person, person2)}"); // Returns true
@@ -32,10 +32,6 @@ public record struct Team(string Name, City city); // Stored on the stack
 public record Person(string FirstName, string LastName);
 public record class Employee(string FirstName, string LastName, string EmployeeId) : Person(FirstName, LastName);
 
-<<<<<<< HEAD
-// Example of a record class// The class keyword is optional
-public record class Car(string make, string model, int year);
-=======
 // Example of a record class
 public record class Car()
 {
@@ -43,4 +39,3 @@ public record class Car()
     public string Model { get; init; } = string.Empty;
     public int Year { get; init; } = 0;
 }
->>>>>>> 875ebd2 (✨ (records): Investigating constructors)

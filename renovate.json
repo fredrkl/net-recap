@@ -8,6 +8,10 @@
   "repositories": ["https://github.com/fredrkl/net-recap"],
   "packageRules": [
     {
+      "managers": ["nuget"],
+      "enabled": true
+    },
+    {
       "matchUpdateTypes": [
         "major"
       ],

@@ -5,6 +5,7 @@
   "labels": [
     "dependencies"
   ],
+  "repositories": ["https://github.com/fredrkl/net-recap"],
   "packageRules": [
     {
       "matchUpdateTypes": [

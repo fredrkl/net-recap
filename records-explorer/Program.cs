@@ -24,6 +24,7 @@ recordsexplorer.Person person3 = new recordsexplorer.Person("John", 5);
 
 Console.WriteLine($"Person equal another record with same name: {person == person2}"); // Returns true
 Console.WriteLine($"Person equal another person with reference equal: {ReferenceEquals(person, person2)}"); // Returns true
+Console.WriteLine($"Record person method example: {person3.PrintDetails()}"); // Returns Name: John, Age: 5
 
 public record Country(string Name); // Stored on the heap
 public record struct City(string Name, Country Country); // Stored on the stack

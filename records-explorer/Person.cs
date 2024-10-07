@@ -10,6 +10,11 @@ namespace recordsexplorer{
 
     public string Name { get; init; } = "";
     public int Age { get; set; }
+
+    public string PrintDetails()
+    {
+      return $"Name: {Name}, Age: {Age}";
+    }
   }
 
   public record Hobby
@@ -20,12 +25,12 @@ namespace recordsexplorer{
 
   public record PersonWithHobbies
   {
-      public Person? Person { get; set; }
-      public List<Hobby> Hobbies { get; set; } = new List<Hobby>();
+    public Person? Person { get; set; }
+    public List<Hobby> Hobbies { get; set; } = new List<Hobby>();
 
-      PersonWithHobbies(Person p, List<Hobby> hobbies){
-        Person = p;
-        this.Hobbies = hobbies;
-      }
+    PersonWithHobbies(Person p, List<Hobby> hobbies){
+      Person = p;
+      this.Hobbies = hobbies;
+    }
   }
 }

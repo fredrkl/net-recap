@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
-  "autodiscover": true,
   "labels": [
     "dependencies"
   ],

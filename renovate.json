@@ -2,32 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "repositories": ["https://github.com/fredrkl/net-recap"],
   "packageRules": [
-    {
-      "managers": ["nuget"],
-      "enabled": true
-    },
-    {
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "semanticCommitType": "feat"
-    },
-    {
-      "matchUpdateTypes": [
-        "minor"
-      ],
-      "semanticCommitType": "feat"
-    },
-    {
-      "matchUpdateTypes": [
-        "patch"
-      ],
-      "semanticCommitType": "fix"
-    }
+    {"matchManagers": ["nuget"], "enabled": true},
+    {"matchUpdateTypes": ["major"], "semanticCommitType": "feat"},
+    {"matchUpdateTypes": ["minor"], "semanticCommitType": "feat"},
+    {"matchUpdateTypes": ["patch"], "semanticCommitType": "fix"}
   ]
 }

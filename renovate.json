@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "platform": "github",
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
   "labels": ["dependencies"],

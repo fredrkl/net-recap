@@ -4,7 +4,7 @@
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
   "labels": ["dependencies"],
-  "repositories": ["https://github.com/fredrkl/net-recap"],
+  "repositories": ["fredrkl/net-recap"],
   "packageRules": [
     {"matchManagers": ["nuget"], "enabled": true},
     {"matchUpdateTypes": ["major"], "semanticCommitType": "feat"},

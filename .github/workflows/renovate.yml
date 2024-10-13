@@ -14,4 +14,5 @@ jobs:
         with:
           configurationFile: renovate.json
           token: ${{ secrets.RENOVATE_TOKEN }}
-          LOG_LEVEL: debug # Set to 'trace' for even more detailed logs
+        env:
+          LOG_LEVEL: 'debug'

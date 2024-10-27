@@ -5,6 +5,18 @@ namespace records_explorer.Tests;
 public class UnitTest1
 {
   [Fact]
+  public void Fruit_record()
+  {
+    var fruit = new Fruit("Apple", "Red", 10);
+    var apple = new Apple("Apple", "Red", 10, true);
+
+    Assert.Equal("Apple", fruit.Name);
+    Assert.Equal("Red", fruit.Color);
+    Assert.Equal(10, fruit.Size);
+    Assert.Equal(true, apple.ripe);
+  }
+
+  [Fact]
   public void Test1()
   {
     var country = new Country("Spain");

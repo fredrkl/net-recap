@@ -1,4 +1,5 @@
 using recordsexplorer;
+using Xunit;
 
 namespace records_explorer.Tests;
 

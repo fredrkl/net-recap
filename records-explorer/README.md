@@ -4,7 +4,7 @@
 
 Records are reference types that provide synthesized methods to implement value equality. They are immutable per default and can be deconstructed. It is important to note that records are reference types, not value types.
 
-In C#, records are a reference type by default, which means they are stored on the heap. However, C# 9.0 introduced the concept of `record` types, which can be either reference types or value types. This project uses .net 8 which used the C# version 12.
+In C#, records are a reference type by default, which means they are stored on the heap. This project uses .net 8 which used the C# version 12.
 
 1. **Reference Type Records**: By default, when you define a record, it is a reference type and is stored on the heap. For example:
 
@@ -32,6 +32,13 @@ As I see it, you will only want to use value type records when you have a small,
 ## Record vs Record Class
 
 Specifying `Record Class` instead of only `Record` is not necessary. The `Record` keyword is enough to define a record type. The `Record Class` is to used to make it more explicit.
+
+- `record class` is an alias for `record`.
+- `record struct` is used to define a value type record.
+
+## Constructor
+
+When you define primary constructors in a record, the compiler will generate a constructor for you. You can also define additional constructors in a record. The additional constructors must call the primary constructor.
 
 In summary:
 - **Reference type records** (default) are stored on the heap.

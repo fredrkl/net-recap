@@ -7,15 +7,15 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - records-explorer/**
-      - records-explorer.Tests/**
+      - src/records-explorer/**
+      - src/records-explorer.Tests/**
       - net-recap.sln
       - .github/workflows/dotnet.yml
   pull_request:
     branches: [ "main" ]
     paths:
-      - records-explorer/**
-      - records-explorer.Tests/**
+      - src/records-explorer/**
+      - src/records-explorer.Tests/**
       - net-recap.sln
       - .github/workflows/dotnet.yml
 

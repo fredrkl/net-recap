@@ -26,9 +26,9 @@ var host = Host.CreateDefaultBuilder(args)
     services.AddLogging();
     services.AddTransient<IMyClass, MyClass>();
     })
-  .ConfigureLogging(logging =>
-      logging.AddConsole()
-      )
+  .ConfigureLogging(logging => {
+      logging.AddConsole();
+      })
   .Build();
 
   var logger = host.Services.GetRequiredService<ILogger<Program>>();

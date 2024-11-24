@@ -16,4 +16,3 @@ public class MyClass : IMyClass
         _logger.LogError("This is an error message.");
     }
 }
-

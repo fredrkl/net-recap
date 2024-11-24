@@ -18,3 +18,9 @@ This repo uses the [Renovate](https://docs.renovatebot.com/) bot to keep depende
 ## Lessons - WebAPI
 
 - There are mainly two types of ways to create APIs in ASP .NET Core: _minimal APIs_ and _MVC_.
+
+## Lessons - feature-explorer
+
+- Host ConfigureServices does have a method to take in a predefined IServiceCollection.
+- ConfigurationBuilder is used to build configuration from different sources, e.g. appsettings.json, appsettings.Development.json, environment variables, command line arguments.
+- .NET has a built in _feature toggle_ system that can be used to enable or disable features in your application. It is included in the _Microsoft.FeatureManagement_ package

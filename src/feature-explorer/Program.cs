@@ -15,9 +15,9 @@ IConfiguration configuration = new ConfigurationBuilder()
   .Build();
 
 // Services with DI
-// IServiceCollection services_already = new ServiceCollection();
-// services_already.AddLogging();
-// services_already.AddTransient<IMyClass, MyClass>();
+IServiceCollection services_already = new ServiceCollection();
+services_already.AddLogging();
+services_already.AddTransient<IMyClass, MyClass>();
 
 var appSettings = configuration.GetSection("Configurations").Get<Configurations>();
 

@@ -39,19 +39,18 @@ var host = Host.CreateDefaultBuilder(args)
       })
   .Build();
 
-  var logger = host.Services.GetRequiredService<ILogger<Program>>();
-  IMyClass myClass = host.Services.GetRequiredService<IMyClass>();
-  myClass.MyMethod();
+var logger = host.Services.GetRequiredService<ILogger<Program>>();
+IMyClass myClass = host.Services.GetRequiredService<IMyClass>();
+myClass.MyMethod();
 
-  logger.LogInformation("This is an informational message.");
-  logger.LogInformation("This is an informational message for {name}.", nameof(logger));
+logger.LogInformation("This is an informational message.");
+logger.LogInformation("This is an informational message for {name}.", nameof(logger));
 
-  var feature_manager = host.Services.GetRequiredService<IFeatureManager>();
-  var enabledA = await feature_manager.IsEnabledAsync("FeatureA");
-  var enabledB = await feature_manager.IsEnabledAsync("FeatureB");
+var feature_manager = host.Services.GetRequiredService<IFeatureManager>();
+var enabledA = await feature_manager.IsEnabledAsync("FeatureA");
+var enabledB = await feature_manager.IsEnabledAsync("FeatureB");
 
-  logger.LogInformation("The feature FeatureA is enabled: {enabled}", enabledA);
-  logger.LogInformation("The feature FeatureB is enabled: {enabled}", enabledB);
+logger.LogInformation("The feature FeatureA is enabled: {enabled}", enabledA);
+logger.LogInformation("The feature FeatureB is enabled: {enabled}", enabledB);
 
-
-  host.Run();
+host.Run();

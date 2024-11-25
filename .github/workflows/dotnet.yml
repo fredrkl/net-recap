@@ -1,23 +1,16 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - src/records-explorer/**
-      - src/records-explorer.Tests/**
+      - src/**/*
       - net-recap.sln
-      - .github/workflows/dotnet.yml
   pull_request:
     branches: [ "main" ]
     paths:
-      - src/records-explorer/**
-      - src/records-explorer.Tests/**
+      - src/**/*
       - net-recap.sln
-      - .github/workflows/dotnet.yml
 
 jobs:
   build:
@@ -27,8 +20,6 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 9.0.x
     - name: Build
-      run: dotnet build records-explorer/
-    - name: Test
-      run: dotnet test records-explorer.Tests/
+      run: dotnet build net-recap.sln

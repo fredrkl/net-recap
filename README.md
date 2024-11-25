@@ -24,3 +24,14 @@ This repo uses the [Renovate](https://docs.renovatebot.com/) bot to keep depende
 - Host ConfigureServices does have a method to take in a predefined IServiceCollection.
 - ConfigurationBuilder is used to build configuration from different sources, e.g. appsettings.json, appsettings.Development.json, environment variables, command line arguments.
 - .NET has a built in _feature toggle_ system that can be used to enable or disable features in your application. It is included in the _Microsoft.FeatureManagement_ package
+
+Use Host.CreateApplicationBuilder if:
+
+- You are working with ASP.NET Core or minimal APIs.
+- You want a lightweight and opinionated configuration for modern web applications.
+- You are using .NET 7 or newer.
+
+Use Host.CreateDefaultBuilder if:
+- You need a generic host for non-web applications, such as worker services or console apps.
+- You require full flexibility and customization.
+- You are targeting .NET 6 or older (or .NET 7+ for non-web apps).

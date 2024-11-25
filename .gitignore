@@ -1,3 +1,4 @@
 obj/
 bin/
 .commit-template.txt
+node_modules/**

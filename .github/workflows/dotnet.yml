@@ -6,11 +6,13 @@ on:
     paths:
       - src/**/*
       - net-recap.sln
+      - .github/workflows/*
   pull_request:
     branches: [ "main" ]
     paths:
       - src/**/*
       - net-recap.sln
+      - .github/workflows/*
 
 jobs:
   build:

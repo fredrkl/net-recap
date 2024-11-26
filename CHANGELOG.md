@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/fredrkl/net-recap/compare/v1.5.0...v1.5.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v40.3.5 ([0f70eb4](https://github.com/fredrkl/net-recap/commit/0f70eb425b62b1a491fc8d20e4802ef5277ca0ba))
+
 # [1.5.0](https://github.com/fredrkl/net-recap/compare/v1.4.0...v1.5.0) (2024-11-26)
 
 

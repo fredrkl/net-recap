@@ -40,4 +40,4 @@ Use Host.CreateDefaultBuilder if:
 
 ## Build and release
 
-This repo uses conventional commits and the semantic-release GitHub Action to automatically create releases. This means that you should use the following commit message format defined in the .releaserc file.
+This repo uses conventional commits and the semantic-release GitHub Action to automatically create releases. This means that you should use the following commit message format defined in the .releaserc file. See the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) spesification.

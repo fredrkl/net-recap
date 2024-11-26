@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/fredrkl/net-recap/compare/v1.3.0...v1.3.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* build ([72a8c3b](https://github.com/fredrkl/net-recap/commit/72a8c3b69e790a2c7411d1d30868db2849919dbe))
+* build ([b578842](https://github.com/fredrkl/net-recap/commit/b5788420ed7121270810f5058459de17bc84fdea))
+
 # [1.3.0](https://github.com/fredrkl/net-recap/compare/v1.2.0...v1.3.0) (2024-11-26)
 
 

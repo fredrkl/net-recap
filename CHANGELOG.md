@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/fredrkl/net-recap/compare/v1.2.0...v1.3.0) (2024-11-26)
+
+
+### Bug Fixes
+
+* missing exec package ([8b594dd](https://github.com/fredrkl/net-recap/commit/8b594ddb2abc2a5bfae57bdfd9f76947334b2d11))
+* Wrong release config ([1581035](https://github.com/fredrkl/net-recap/commit/158103567b8d97e7713fe526e4fc6a6acf12e1b5))
+
+
+### Features
+
+* Testing output ([e47bf43](https://github.com/fredrkl/net-recap/commit/e47bf43c0b542273703f3a724fa5fb8bb25fbd6f))
+
 # [1.2.0](https://github.com/fredrkl/net-recap/compare/v1.1.0...v1.2.0) (2024-11-26)
 
 

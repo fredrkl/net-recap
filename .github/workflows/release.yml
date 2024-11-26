@@ -43,5 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
-      - name: Get version number
-        run: echo "The new version is ${{ env.nextRelease.version }}"
+        #      - name: Get version number
+        #        run: echo "The new version is ${{ $GITHUB_ENV }}"
+       - name: Print version number
+         run: echo "The new version is ${{ env.RELEASE_VERSION }}"

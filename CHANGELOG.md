@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/fredrkl/net-recap/compare/v1.5.1...v1.6.0) (2024-11-26)
+
+
+### Features
+
+* **deps:** update renovatebot/github-action action to v41 ([5fd1a66](https://github.com/fredrkl/net-recap/commit/5fd1a66ee0493f222256d65eb94d6171dbbd5135))
+
 ## [1.5.1](https://github.com/fredrkl/net-recap/compare/v1.5.0...v1.5.1) (2024-11-26)
 
 

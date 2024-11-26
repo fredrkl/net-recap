@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/fredrkl/net-recap/compare/v1.3.1...v1.4.0) (2024-11-26)
+
+
+### Features
+
+* Demo feature ([7baba32](https://github.com/fredrkl/net-recap/commit/7baba323cdbf682237efca3213a7ab8b35a73681))
+
 ## [1.3.1](https://github.com/fredrkl/net-recap/compare/v1.3.0...v1.3.1) (2024-11-26)
 
 

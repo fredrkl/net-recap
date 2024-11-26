@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/fredrkl/net-recap/compare/v1.4.0...v1.5.0) (2024-11-26)
+
+
+### Features
+
+* How to use gitmoji ([4d66543](https://github.com/fredrkl/net-recap/commit/4d665439fd7f79aea16212d1acf717e189e2e812))
+
 # [1.4.0](https://github.com/fredrkl/net-recap/compare/v1.3.1...v1.4.0) (2024-11-26)
 
 

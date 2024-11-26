@@ -1,0 +1,30 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+    {
+      "preset": "conventionalcommits",
+      "releaseRules": [
+      { "emoji": "✨", "release": "minor" },
+      { "emoji": "🐛", "release": "patch" },
+      { "emoji": "⚡️", "release": "patch" },
+      { "emoji": "🚀", "release": "minor" },
+      { "emoji": "💥", "release": "major" },
+      { "emoji": "🔧", "release": "patch" },
+      { "emoji": "📦", "release": "patch" }
+      ]
+    }
+    ],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/git",
+    [
+      "@semantic-release/exec",
+      {
+        "successCmd": "echo 'nextRelease.version=${nextRelease.version}' >> $GITHUB_ENV"
+      }
+    ]
+  ]
+}

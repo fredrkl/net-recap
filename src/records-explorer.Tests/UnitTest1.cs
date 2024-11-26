@@ -13,7 +13,7 @@ public class UnitTest1
     Assert.Equal("Apple", fruit.Name);
     Assert.Equal("Red", fruit.Color);
     Assert.Equal(10, fruit.Size);
-    Assert.Equal(true, apple.ripe);
+    Assert.True(apple.ripe);
   }
 
   [Fact]

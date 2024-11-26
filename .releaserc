@@ -19,12 +19,12 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
-    "@semantic-release/git"
-      [
+    "@semantic-release/git",
+    [
       "@semantic-release/exec",
       {
         "successCmd": "echo 'nextRelease.version=${nextRelease.version}' >> $GITHUB_ENV"
       }
-      ]
+    ]
   ]
 }

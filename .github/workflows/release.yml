@@ -45,5 +45,5 @@ jobs:
         run: npx semantic-release
         #      - name: Get version number
         #        run: echo "The new version is ${{ $GITHUB_ENV }}"
-       - name: Print version number
-         run: echo "The new version is ${{ env.RELEASE_VERSION }}"
+      - name: Print version number
+        run: echo "The new version is ${{ env.RELEASE_VERSION }}"

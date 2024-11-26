@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/fredrkl/net-recap/compare/v1.1.0...v1.2.0) (2024-11-26)
+
+
+### Features
+
+* testing new feature again ([e450045](https://github.com/fredrkl/net-recap/commit/e450045678951dc977d4959882c83db213d2ffc0))
+
 # [1.1.0](https://github.com/fredrkl/net-recap/compare/v1.0.0...v1.1.0) (2024-11-26)
 
 

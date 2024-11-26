@@ -6,7 +6,9 @@
 
 This repo uses the [Renovate](https://docs.renovatebot.com/) bot to keep dependencies up to date. I use Renovate over Dependabot because it is more configurable and has more features.
 
-## Lessons - Records
+## Lessons
+
+### Lessons - Records
 
 - In order to run a LSP for .NET 7 or newer we need to use the https://github.com/razzmatazz/csharp-language-server instead of Omnisharp-roslyn which only goes up to version 6.
 - In order for the LSP to cross projects we need a solution file. This is because the LSP needs to know about the projects in the solution in order to provide intellisense across projects.
@@ -15,11 +17,11 @@ This repo uses the [Renovate](https://docs.renovatebot.com/) bot to keep depende
 - Renovate need access to create or update workflow in order to create a PR updating gh actions.
 - Renovate does not use the full url when spesifying individual repositories
 
-## Lessons - WebAPI
+### Lessons - WebAPI
 
 - There are mainly two types of ways to create APIs in ASP .NET Core: _minimal APIs_ and _MVC_.
 
-## Lessons - feature-explorer
+### Lessons - feature-explorer
 
 - Host ConfigureServices does have a method to take in a predefined IServiceCollection.
 - ConfigurationBuilder is used to build configuration from different sources, e.g. appsettings.json, appsettings.Development.json, environment variables, command line arguments.
@@ -35,3 +37,7 @@ Use Host.CreateDefaultBuilder if:
 - You need a generic host for non-web applications, such as worker services or console apps.
 - You require full flexibility and customization.
 - You are targeting .NET 6 or older (or .NET 7+ for non-web apps).
+
+## Build and release
+
+This repo uses conventional commits and the semantic-release GitHub Action to automatically create releases. This means that you should use the following commit message format defined in the .releaserc file.

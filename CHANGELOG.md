@@ -1,3 +1,8 @@
+# [v1.8.0](https://github.com/fredrkl/net-recap/compare/v1.7.0...v1.8.0) (2024-11-27)
+
+## ✨ New Features
+- [`db7dd99`](https://github.com/fredrkl/net-recap/commit/db7dd99)  Using gitmoji
+
 # [v1.7.0](https://github.com/fredrkl/net-recap/compare/v1.6.0...v1.7.0) (2024-11-27)
 
 ## ✨ New Features

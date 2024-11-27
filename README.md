@@ -1,5 +1,7 @@
 # .NET recap
 
+Also showcases automatic releases using semantic-release and automatic dependency updates using Renovate.
+
 .NET recap. What is new in .net 6 ,7 and 8
 
 ## Renovate

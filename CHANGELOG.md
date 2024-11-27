@@ -1,3 +1,31 @@
+# [1.6.0](https://github.com/fredrkl/net-recap/compare/v1.5.1...v1.6.0) (2024-11-26)
+
+
+### Features
+
+* **deps:** update renovatebot/github-action action to v41 ([5fd1a66](https://github.com/fredrkl/net-recap/commit/5fd1a66ee0493f222256d65eb94d6171dbbd5135))
+
+## [1.5.1](https://github.com/fredrkl/net-recap/compare/v1.5.0...v1.5.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v40.3.5 ([0f70eb4](https://github.com/fredrkl/net-recap/commit/0f70eb425b62b1a491fc8d20e4802ef5277ca0ba))
+
+# [1.5.0](https://github.com/fredrkl/net-recap/compare/v1.4.0...v1.5.0) (2024-11-26)
+
+
+### Features
+
+* How to use gitmoji ([4d66543](https://github.com/fredrkl/net-recap/commit/4d665439fd7f79aea16212d1acf717e189e2e812))
+
+# [1.4.0](https://github.com/fredrkl/net-recap/compare/v1.3.1...v1.4.0) (2024-11-26)
+
+
+### Features
+
+* Demo feature ([7baba32](https://github.com/fredrkl/net-recap/commit/7baba323cdbf682237efca3213a7ab8b35a73681))
+
 ## [1.3.1](https://github.com/fredrkl/net-recap/compare/v1.3.0...v1.3.1) (2024-11-26)
 
 

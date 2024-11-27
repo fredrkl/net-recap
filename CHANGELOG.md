@@ -1,3 +1,8 @@
+# [v1.7.0](https://github.com/fredrkl/net-recap/compare/v1.6.0...v1.7.0) (2024-11-27)
+
+## ✨ New Features
+- [`5b6feb7`](https://github.com/fredrkl/net-recap/commit/5b6feb7)  Using gitmoji instead
+
 # [1.6.0](https://github.com/fredrkl/net-recap/compare/v1.5.1...v1.6.0) (2024-11-26)
 
 

@@ -1,3 +1,8 @@
+# [v1.9.0](https://github.com/fredrkl/net-recap/compare/v1.8.0...v1.9.0) (2024-12-14)
+
+## ✨ New Features
+- [`cec6da5`](https://github.com/fredrkl/net-recap/commit/cec6da5)  Aspire demo
+
 # [v1.8.0](https://github.com/fredrkl/net-recap/compare/v1.7.0...v1.8.0) (2024-11-27)
 
 ## ✨ New Features
